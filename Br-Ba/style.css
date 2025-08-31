@@ -1,0 +1,48 @@
+#css-fcse{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+header h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    margin: 0px;
+}
+header h2{
+    text-align: right;
+    margin-right: 450px;
+    
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+header{
+    background-image: url(./img/top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 600px; /* adjust as needed to fit your image */
+    position: relative;
+    
+}
+section{
+    background-color: rgb(160, 160, 253);
+    /* height: 1500px; */
+}
+.summary p{
+    position: absolute;
+    top: 150px;       /* adjust as needed */
+    right: 50px;     /* adjust as needed */
+    color: orange;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 250px;
+}
+.page-wrapper{
+    border-bottom: 1px solid orangered;
+}
+.miniintro{
+    border-top: 3px solid orangered;
+}

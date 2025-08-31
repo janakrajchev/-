@@ -1,0 +1,201 @@
+body{
+background-image: url('img/gradient_bg.jpg') ;
+background-repeat: repeat-x;
+height: fit-content;
+background-color: #08327f;
+}
+
+p{
+    text-align: justify;
+}
+
+#extraDiv1 {
+width: 100%;
+height: 200px;
+top: 0px;
+position: absolute;
+background-image: url('img/clouds.jpg');
+background-repeat: repeat-x;
+}
+
+#extraDiv2 {
+width: 100%;
+height: 200px;
+top: 0px;
+position: absolute;
+top:103px;
+background-image: url('img/water_edge.jpg');
+background-repeat: repeat-x;
+}
+
+#container{
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    width: 55%;
+    height: max-content;
+    padding-top: 180px;
+    background: transparent;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#intro{
+    width: 75%;
+}
+
+#pageHeader{
+    background-image: url('img/fish_bottom.gif');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 150px;
+    min-height: 150px;
+    color: white;
+    text-align: right;
+}
+
+#pageHeader h1 {
+    font-size: 30px;
+    height: 20px;
+    margin-right: 160px;
+}
+
+#pageHeader h2 {
+    font-size: 20px;
+    height: 20px;
+    margin-left: 300px;
+    margin-right: 70px;
+    margin-top: 50px;
+    text-align: left;
+}
+#quickSummary {
+    padding-top: 0px;
+    
+}
+.p1{
+    width: 100%;
+    /* margin-top: 100px; */
+}
+   
+#supportingText {
+    width: 75%;
+    float: left;
+    margin-top: -16px;
+}
+
+#linkList {
+    position: absolute;
+    top: 510px;
+    right: 0;
+    width: 25%;
+    margin: -25px;
+}
+
+.select, .korisni_linkovi{
+    font-style: italic;
+}
+
+/* Remove link color and underline */
+#lselect a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Remove list item bullets */
+#lselect ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Add lines between items */
+#lselect li {
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+/* Optional: remove line after last item */
+#lselect li:last-child {
+    border-bottom: none;
+}
+
+#lkorisni_linkovi a{
+    color: white;
+    text-decoration: none;
+}
+#lkorisni_linkovi ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#explanation p{
+    margin-top: 10px;
+}
+
+#explanation h3{
+    background-image: url('img/fish_top.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+    min-height: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+#participation p{
+    margin-top: 10px;
+}
+
+#participation h3{
+    background-image: url('img/fish_top.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+    min-height: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+#benefits p{
+    margin-top: 10px;
+}
+#benefits h3{
+    background-image: url('img/fish_top.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+    min-height: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+#footer {
+    /* background-color: #002366; */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    
+}
+
+#footer a {
+    color: #aaddff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* #footer a:hover {
+    text-decoration: underline;
+} */

@@ -1,0 +1,172 @@
+html{
+	background: url(main_bg_.gif) repeat;
+}
+
+body {
+font : 12px Verdana, Arial, Helvetica, sans-serif;
+color : #172104;
+background : none;
+margin : 0;
+position : relative;
+width : 650px;
+top : 0px;
+left : auto;
+right : auto;
+margin-left : auto;
+margin-right : auto;
+}
+
+#container{
+background : url(containe.jpg) top left repeat-y;
+padding : 0 0 0 0;
+position : absolute;
+right : auto;
+left : auto;
+width : 770px;
+}
+#intro{
+	background: url(intro_ti.jpg) no-repeat;
+	background-position-x: 60px;
+}
+
+
+#pageHeader h1  {
+	display: none;
+}
+
+
+#pageHeader h2 span {
+	display: none;
+}
+
+#pageHeader {
+background: url(intro_bg.jpg) top no-repeat;
+padding: 7px 668px 0px 0px;
+width: 395px;
+height: 110px;
+}
+#quickSummary{
+	background: url(intro_bh.jpg) top no-repeat;
+	background-position-x: 334px;
+	background-position-y: 0px;
+	padding: 104px 58px 0px 353px;
+}
+#quickSummary .p1{
+	background: url(header.gif) top no-repeat;
+	padding: 39px 0px 0px 0px;
+	text-align:justify;
+	
+}
+
+#preamble h3 span{
+	display:none;
+}
+
+#preamble {
+	background: url(header.gif) no-repeat;
+padding: 0px 0px 0px 0px;
+background-position-x: 334px;
+}
+
+#preamble .p1{
+padding: 40px 0px 0px 357px;
+}
+
+#preamble .p2{
+padding: 4px 32px 0px 355px;
+}
+#preamble .p3{
+padding: 4px 48px 0px 356px;
+}
+
+#explanation{
+	background: url(header.gif) no-repeat;
+	background-position-x: 334px;
+}
+
+#explanation h3 span{
+display:none; 
+}
+
+#explanation .p1 {
+	padding: 40px 47px 0px 357px;
+}
+
+#explanation .p2 {
+	padding: 5px 44px 0px 358px;
+}
+
+
+#footer{
+	padding-left: 376px;
+}
+
+#footer a {
+	padding: 14px 13px 8px 12px;
+color: green;
+font-size: 15px;
+}
+
+#linkList{
+position: absolute;
+margin-left: 60px;
+margin-bottom: 0px;
+margin-top: -850px;
+}
+
+#lselect h3 span{
+	display:none;
+}
+#lselect{
+	background: url(select_n.gif) no-repeat;
+	width:277px;
+	height:30px;
+}
+
+#lselect ul {
+padding: 36px 0px 0px 40px;
+}
+
+#larchives h3 span{
+	display:none;
+}
+
+#larchives{
+	padding: 77px 0px 0px 17px;
+background: url(archive_.gif) no-repeat;
+width: 277px;
+height: 74px;
+background-position-y: 98px;
+}
+
+
+#larchives ul{
+	padding: 31px 0px 0px 40px;
+}
+
+
+#lselect li{
+	text-decoration:none;
+	display:block;
+	border-bottom: 1px solid green;
+	padding: 3px 0px 0px 0px;
+	width: 130px;
+}
+
+#lselect li a:link{
+	text-decoration: none;
+	color: green;
+}
+
+#larchives li{
+text-decoration:none;
+	display:block;
+	border-bottom: 1px solid green;
+	padding: 3px 0px 0px 0px;
+	width: 130px;
+}
+
+#larchives li a:link{
+text-decoration: none;
+	color: green;
+}

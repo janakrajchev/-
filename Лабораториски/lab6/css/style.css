@@ -1,0 +1,144 @@
+/*Ovoj selektor ne treba da go menuvate */
+* { margin: 0; padding: 0; outline:0;	margin-left: auto;
+	margin-right:auto;
+	}
+
+body {
+	font-size: 11px;
+    line-height: 16px;
+    font-family: Georgia, serif;
+    color: #7f7f7f;
+    background: #fff url(images/body-bg.gif) repeat-x 0 0;
+}
+
+
+/*Site linkovi*/
+a { 
+	color: #0252aa; 
+	text-decoration: none;
+	cursor:pointer;
+}
+
+
+/* Ovoj selektor treba da se odnesuva na site linkovi koga glusecot pominuva nad niv*/
+ a:hover{ 
+	color: #000;
+ }
+
+
+/*Ovoj selektor se odnesuva za pravenje prostor za footerot i negovo prikazuvanje pod celata sodrzina*/ 
+{ 
+	display: block; 
+	height: 0; 
+	font-size: 0; 
+	line-height: 0; 
+	text-indent: -4000px; 
+	clear: both; 
+}
+
+
+/*Ovde treba da upotrebite selektor koj ke bide wrapper na celata sodrzina, odnosno sodrzinata ke bide smestena ovde*/
+#cl{ 
+	width: 980px; 
+	margin: 0 auto;
+	
+}
+
+
+
+/*Se odnesuva na header-ot*/
+#header{ 
+	padding: 25px 0 41px 0; 
+}
+
+
+
+/* Se odnesuva na tekstot koj stoi gore levo (logo)*/
+#logo-holder{ 
+	float: left; 
+	display: inline;
+	padding: 3px 0 0 11px; 
+}
+
+
+
+/* site linkovi koj se naogaat vo logoto*/
+#logo a{ 	
+	font-size: 22px; 
+	font-weight: normal;
+	color: #000; 
+	line-height: 21px;
+	font-style: italic; 
+}
+
+
+/* tekstot koj se naoga vo logoto*/
+#quote { 
+	font-size: 10px; 
+	color: #777; 
+	line-height: 12px;
+	padding-left: 3px; 
+	letter-spacing: 0.12em;
+}
+
+
+/* se odnesuva na navigacijata*/
+#navigation{ float: right; display: inline; }
+
+/* site listi koi pripagaat na navigacijata*/
+#navigation ul{ list-style: none outside none; }
+
+/* site elementi na listite na navigacijata*/
+#navigation li{ float: left; display: inline; padding-right: 7px; }
+
+/* Site linkovi koi se naogaat vo elementite od listata na navigacijata*/ 
+#navigation a{ float: left; display: inline; height: 34px; font-weight: bold;  font-size: 12px; color: #8e8e8e; line-height: 33px;  padding-left: 15px; }
+
+/*span elementite od linkovite na navigacijata*/
+#navigation a{ padding: 0 15px 0 15px; }
+
+/*site linkovi od navigacijata zaedno so span elementite na hover*/
+#navigation a:hover{ background: url(images/nav-hover.gif) no-repeat 0 0; color: #868686;border-radius:10px; }
+.active { background:url(images/nav-hover.gif) no-repeat 0 0; color: #868686;border-radius:10px;}
+
+/* hover  na linkovite od navigacijata*/
+#navigation a:hover{ background-position: right 0; }
+
+/* End Header */
+
+
+
+/* Featured Content */
+
+#featured-content { background: url(images/featured-content-bg.gif); padding: 11px 0 18px 0; min-height: 151px; }
+
+/* site h1 elementi vo featured del (na sredinata so plavo)*/
+#featured-content h2{ font-size: 60px; line-height: 60px;  color: #fff; padding-bottom: 9px;}
+
+/* Site paragrafi vo featured*/
+#featured-content p{ font-size: 22px; color: #cceefb; line-height: 25px; }
+
+/* End Featuared Content */
+
+/* Main */
+
+#main{ padding: 43px 0 0 40px; }
+/* wrapper za glavniot delot kade se naoga tekstot */
+.shell{ width: 952px; padding-left: 28px; }
+
+/* se odnesuva na rasporedot na kolonite so tekstovi*/
+.col{ float: left; display: inline; width: 289px; margin-right: 28px; padding-bottom: 43px;  }
+.post { margin: 0; }
+#main-content{ float: left; display: inline; width: 607px; margin-right: 28px; }
+.col col-last{ float: left; display: inline; width: 290px; }
+
+
+/* Site h3 elementi na tekstovite vo main delot*/
+#main h3{ color: #000; font-size: 22px; font-style: italic; padding-bottom: 4px; line-height: 22px; }
+ /* Site paragrafi elementi na tekstovite vo main delot*/
+#sidebar{ padding-top: 10px; }
+
+/* End Main */
+
+
+#footer{ background: url(images/footer-bg.gif) repeat-x 0 0; font-family: Verdana, sans-serif; font-size: 9px; color: #7b7b7b; min-height: 60px; }
