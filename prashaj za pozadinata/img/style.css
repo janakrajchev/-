@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-image: url(back.gif);
+    width: 10px;
+    height: 1590px;
+    background-repeat: repeat-x;
+}
+.intro h1{
+    background-image: url(header.png);
+    width: 691px;
+    height: 277px;
+    float: center;
+    margin-left: 330px;
+    text-indent: -9999px;
+}
+.summary{
+    background-image: url(down1.gif);
+    float: right;
+    width: 179px;
+    height: 117px;
+    margin-right: -1000px;
+    margin-top: -110px;
+}
+.summary p:first-child{
+    text-indent: -9999px;
+}
+.summary p{
+    width: 150px;
+    font-weight: bold;
+    color: deeppink;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.summary p a{
+    text-decoration: none;
+    color: #74529A;
+}
+.summary p a:hover{
+    color: #993399;
+}
+.preamble {
+    background-image: url(t1.gif);
+    width: 479px;
+    height: 40px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+.preamble h3{
+    margin-left: 30px;
+    color: purple;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.preamble p{
+    width: 400px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.explanation{
+    background-image: url(t1.gif);
+    width: 479px;
+    height: 40px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 150px;
+}
+.explanation h3{
+    margin-left: 30px;
+    color: purple;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.explanation p{
+    width: 400px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.explanation ul li{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: justify;
+    height: 2px;
+}
+.participation{
+    background-image: url(t1.gif);
+    width: 479px;
+    height: 40px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 230px;
+}
+.participation h3{
+    margin-left: 30px;
+    color: purple;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.participation p{
+    width: 400px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.participation ul li ul li{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 80px;
+    text-align: justify;
+    height: 2px;
+}
+.participation ul li{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 80px;
+    text-align: justify;
+}
+.benefits{
+    background-image: url(t1.gif);
+    width: 479px;
+    height: 40px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 350px;
+}
+.benefits h3{
+    margin-left: 30px;
+    color: purple;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.benefits p{
+    width: 400px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.sidebar{
+    margin-left: 850px;
+    margin-top: -930px;
+}
+.wrapper h3{
+    color: hotpink;
+    font-size: 16px;
+    width: 200px;
+}
+.wrapper ul li{
+    list-style-type: none;
+    list-style-image: url(picto.gif);
+    width: 190px;
+    margin-left: 10px;
+    padding: 7px;
+}
+.wrapper ul li a{
+    color: gray;
+    border-bottom: dotted 2px deeppink;
+}
+.wrapper ul li a:hover{
+    border-bottom: solid 2px deeppink;
+}
+.side2 h3{
+    margin-top: 10px;
+    border-bottom: dotted 2px deeppink;
+}

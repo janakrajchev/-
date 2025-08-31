@@ -1,0 +1,177 @@
+/* Indeks, Ime i Prezime */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "palatino linotype", palatino ,serif;
+    font-size: 14px;
+    background-image: url(bkgr1.jpg);
+    width: 298px;
+    height: 197px;
+}
+#intro h1{
+    background-image: url(header.jpg);
+    width: 474px;
+    height: 292px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-indent: -9999px;
+}
+#intro h2{
+    text-indent: -9999px;
+}/*mozhesh da go upotrebish dopolnitelno ako ti treba neshto*/
+#summary p:first-child{
+    text-indent: -9999px;
+    background-image: url(boy.jpg);
+    width: 296px;
+    height: 240px;
+    margin-left: 490px;
+    margin-top: 12px;
+}
+#summary p{
+    margin-left: 500px;
+    width: 270px;
+    margin-top: -30px;
+    color: white;
+}
+#summary p a{
+    color: white;
+}
+#summary p a:hover{
+    color: blue;
+}
+#intro h3{
+    text-indent: -9999px;
+    background-image: url(ttls.gif);
+    width: 325px;
+    height: 50px;
+    background-position: 0 0;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+p{
+    width: 450px;
+    text-align: left;
+    margin-left: 30px;
+}
+#explanation h3{
+    text-indent: -9999px;
+    background-image: url(ttls.gif);
+    width: 325px;
+    height: 50px;
+    background-position: 0 -30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#evolution h3{
+    text-indent: -9999px;
+    background-image: url(ttls.gif);
+    width: 330px;
+    height: 50px;
+    background-position: 0 -100px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#tools h3{
+    text-indent: -9999px;
+    background-image: url(ttls.gif);
+    width: 330px;
+    height: 50px;
+    background-position: 0 -150px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+#standards h3{
+    text-indent: -9999px;
+    background-image: url(ttls.gif);
+    width: 330px;
+    height: 50px;
+    background-position: 0 -200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.standards{
+    border-bottom: solid 1px cornflowerblue;
+    width: 820px;
+}
+footer{
+    margin-left: 640px;
+    width: 200px;
+    margin-top: 3px;
+}
+footer a{
+    font-weight: bold;
+    background: cornflowerblue;
+    padding: 2px;
+    color: white;
+}
+footer a:hover{
+    background: blue;
+}
+.sidebar{
+    margin-left: 550px;
+    width: 180px;
+    margin-top: -2200px;
+}
+#selection h3{
+    text-indent: -9999px;
+    background-image: url(ttls2.gif);
+    width: 200px;
+    height: 50px;
+    background-position: 0 0;
+    margin-left: -50px;
+}
+#selection ul li{
+    list-style-type: none;
+    width: 110px;
+    padding: 5px;
+    list-style-image: url(bull.gif);
+}
+li a:first-child{
+    color: black;
+}
+li a:first-child:hover{
+    color: blue;
+}
+li a:nth-child(2){
+    color: rgb(50%, 50%, 100%);
+    font-style: italic;
+}
+
+li a:nth-child(2):hover{
+    color: blue;
+}
+#ocupations h3{
+    text-indent: -9999px;
+    background-image: url(ttls2.gif);
+    width: 200px;
+    height: 50px;
+    background-position: 0 -30px;
+    margin-left: -50px;
+}
+#ocupations ul li{
+    list-style-type: none;
+    width: 110px;
+    padding: 5px;
+    list-style-image: url(bull.gif);
+}
+.resources h3{
+    text-indent: -9999px;
+    background-image: url(ttls2.gif);
+    width: 200px;
+    height: 50px;
+    background-position: 0 0;
+    margin-left: -50px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+.resources ul li{
+    list-style-type: none;
+    width: 110px;
+    padding: 5px;
+    list-style-image: url(bull.gif);
+}

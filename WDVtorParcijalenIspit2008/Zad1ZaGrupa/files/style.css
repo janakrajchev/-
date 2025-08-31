@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #999 url(bk.jpg) repeat-x fixed;
+    margin: 0;
+    padding: 0;
+    color: #33140E;
+    font-family: Georgia, Times, serif;
+    font-size: 80%;
+}
+#Naslov h1{
+    background-image: url(paper_top.gif) repeat-y;
+    width: 750px;
+    height: 45px;
+}
+#extraDiv1{
+    background-image: url(logo.gif);
+    width: 340px;
+    height: 90px;
+    float: left;
+}
